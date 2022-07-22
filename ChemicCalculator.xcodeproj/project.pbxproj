@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C342E6FB288ADF9700AB8962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C342E6FA288ADF9700AB8962 /* AppDelegate.swift */; };
+		C342E6FD288ADF9700AB8962 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C342E6FC288ADF9700AB8962 /* ViewController.swift */; };
+		C342E6FF288ADF9900AB8962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C342E6FE288ADF9900AB8962 /* Assets.xcassets */; };
+		C342E702288ADF9900AB8962 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C342E700288ADF9900AB8962 /* Main.storyboard */; };
+		C342E70D288ADF9A00AB8962 /* ChemicCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C342E70C288ADF9A00AB8962 /* ChemicCalculatorTests.swift */; };
+		C342E717288ADF9A00AB8962 /* ChemicCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C342E716288ADF9A00AB8962 /* ChemicCalculatorUITests.swift */; };
+		C342E719288ADF9A00AB8962 /* ChemicCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C342E718288ADF9A00AB8962 /* ChemicCalculatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C342E709288ADF9A00AB8962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C342E6EF288ADF9700AB8962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C342E6F6288ADF9700AB8962;
+			remoteInfo = ChemicCalculator;
+		};
+		C342E713288ADF9A00AB8962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C342E6EF288ADF9700AB8962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C342E6F6288ADF9700AB8962;
+			remoteInfo = ChemicCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C342E6F7288ADF9700AB8962 /* ChemicCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChemicCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C342E6FA288ADF9700AB8962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C342E6FC288ADF9700AB8962 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C342E6FE288ADF9900AB8962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C342E701288ADF9900AB8962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C342E703288ADF9900AB8962 /* ChemicCalculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChemicCalculator.entitlements; sourceTree = "<group>"; };
+		C342E708288ADF9A00AB8962 /* ChemicCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChemicCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C342E70C288ADF9A00AB8962 /* ChemicCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicCalculatorTests.swift; sourceTree = "<group>"; };
+		C342E712288ADF9A00AB8962 /* ChemicCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChemicCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C342E716288ADF9A00AB8962 /* ChemicCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicCalculatorUITests.swift; sourceTree = "<group>"; };
+		C342E718288ADF9A00AB8962 /* ChemicCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemicCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C342E6F4288ADF9700AB8962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C342E705288ADF9A00AB8962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C342E70F288ADF9A00AB8962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C342E6EE288ADF9700AB8962 = {
+			isa = PBXGroup;
+			children = (
+				C342E6F9288ADF9700AB8962 /* ChemicCalculator */,
+				C342E70B288ADF9A00AB8962 /* ChemicCalculatorTests */,
+				C342E715288ADF9A00AB8962 /* ChemicCalculatorUITests */,
+				C342E6F8288ADF9700AB8962 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C342E6F8288ADF9700AB8962 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C342E6F7288ADF9700AB8962 /* ChemicCalculator.app */,
+				C342E708288ADF9A00AB8962 /* ChemicCalculatorTests.xctest */,
+				C342E712288ADF9A00AB8962 /* ChemicCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C342E6F9288ADF9700AB8962 /* ChemicCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				C342E6FA288ADF9700AB8962 /* AppDelegate.swift */,
+				C342E6FC288ADF9700AB8962 /* ViewController.swift */,
+				C342E6FE288ADF9900AB8962 /* Assets.xcassets */,
+				C342E700288ADF9900AB8962 /* Main.storyboard */,
+				C342E703288ADF9900AB8962 /* ChemicCalculator.entitlements */,
+			);
+			path = ChemicCalculator;
+			sourceTree = "<group>";
+		};
+		C342E70B288ADF9A00AB8962 /* ChemicCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				C342E70C288ADF9A00AB8962 /* ChemicCalculatorTests.swift */,
+			);
+			path = ChemicCalculatorTests;
+			sourceTree = "<group>";
+		};
+		C342E715288ADF9A00AB8962 /* ChemicCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C342E716288ADF9A00AB8962 /* ChemicCalculatorUITests.swift */,
+				C342E718288ADF9A00AB8962 /* ChemicCalculatorUITestsLaunchTests.swift */,
+			);
+			path = ChemicCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C342E6F6288ADF9700AB8962 /* ChemicCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C342E71C288ADF9A00AB8962 /* Build configuration list for PBXNativeTarget "ChemicCalculator" */;
+			buildPhases = (
+				C342E6F3288ADF9700AB8962 /* Sources */,
+				C342E6F4288ADF9700AB8962 /* Frameworks */,
+				C342E6F5288ADF9700AB8962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChemicCalculator;
+			productName = ChemicCalculator;
+			productReference = C342E6F7288ADF9700AB8962 /* ChemicCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C342E707288ADF9A00AB8962 /* ChemicCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C342E71F288ADF9A00AB8962 /* Build configuration list for PBXNativeTarget "ChemicCalculatorTests" */;
+			buildPhases = (
+				C342E704288ADF9A00AB8962 /* Sources */,
+				C342E705288ADF9A00AB8962 /* Frameworks */,
+				C342E706288ADF9A00AB8962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C342E70A288ADF9A00AB8962 /* PBXTargetDependency */,
+			);
+			name = ChemicCalculatorTests;
+			productName = ChemicCalculatorTests;
+			productReference = C342E708288ADF9A00AB8962 /* ChemicCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C342E711288ADF9A00AB8962 /* ChemicCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C342E722288ADF9A00AB8962 /* Build configuration list for PBXNativeTarget "ChemicCalculatorUITests" */;
+			buildPhases = (
+				C342E70E288ADF9A00AB8962 /* Sources */,
+				C342E70F288ADF9A00AB8962 /* Frameworks */,
+				C342E710288ADF9A00AB8962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C342E714288ADF9A00AB8962 /* PBXTargetDependency */,
+			);
+			name = ChemicCalculatorUITests;
+			productName = ChemicCalculatorUITests;
+			productReference = C342E712288ADF9A00AB8962 /* ChemicCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C342E6EF288ADF9700AB8962 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C342E6F6288ADF9700AB8962 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					C342E707288ADF9A00AB8962 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C342E6F6288ADF9700AB8962;
+					};
+					C342E711288ADF9A00AB8962 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = C342E6F6288ADF9700AB8962;
+					};
+				};
+			};
+			buildConfigurationList = C342E6F2288ADF9700AB8962 /* Build configuration list for PBXProject "ChemicCalculator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C342E6EE288ADF9700AB8962;
+			productRefGroup = C342E6F8288ADF9700AB8962 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C342E6F6288ADF9700AB8962 /* ChemicCalculator */,
+				C342E707288ADF9A00AB8962 /* ChemicCalculatorTests */,
+				C342E711288ADF9A00AB8962 /* ChemicCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C342E6F5288ADF9700AB8962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C342E6FF288ADF9900AB8962 /* Assets.xcassets in Resources */,
+				C342E702288ADF9900AB8962 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C342E706288ADF9A00AB8962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C342E710288ADF9A00AB8962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C342E6F3288ADF9700AB8962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C342E6FD288ADF9700AB8962 /* ViewController.swift in Sources */,
+				C342E6FB288ADF9700AB8962 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C342E704288ADF9A00AB8962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C342E70D288ADF9A00AB8962 /* ChemicCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C342E70E288ADF9A00AB8962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C342E717288ADF9A00AB8962 /* ChemicCalculatorUITests.swift in Sources */,
+				C342E719288ADF9A00AB8962 /* ChemicCalculatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C342E70A288ADF9A00AB8962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C342E6F6288ADF9700AB8962 /* ChemicCalculator */;
+			targetProxy = C342E709288ADF9A00AB8962 /* PBXContainerItemProxy */;
+		};
+		C342E714288ADF9A00AB8962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C342E6F6288ADF9700AB8962 /* ChemicCalculator */;
+			targetProxy = C342E713288ADF9A00AB8962 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C342E700288ADF9900AB8962 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C342E701288ADF9900AB8962 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C342E71A288ADF9A00AB8962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C342E71B288ADF9A00AB8962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C342E71D288ADF9A00AB8962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChemicCalculator/ChemicCalculator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DXNM5PPBP4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = democardla.ChemicCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C342E71E288ADF9A00AB8962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChemicCalculator/ChemicCalculator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DXNM5PPBP4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = democardla.ChemicCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C342E720288ADF9A00AB8962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DXNM5PPBP4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = democardla.ChemicCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChemicCalculator.app/Contents/MacOS/ChemicCalculator";
+			};
+			name = Debug;
+		};
+		C342E721288ADF9A00AB8962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DXNM5PPBP4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = democardla.ChemicCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChemicCalculator.app/Contents/MacOS/ChemicCalculator";
+			};
+			name = Release;
+		};
+		C342E723288ADF9A00AB8962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DXNM5PPBP4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = democardla.ChemicCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ChemicCalculator;
+			};
+			name = Debug;
+		};
+		C342E724288ADF9A00AB8962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DXNM5PPBP4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = democardla.ChemicCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ChemicCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C342E6F2288ADF9700AB8962 /* Build configuration list for PBXProject "ChemicCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C342E71A288ADF9A00AB8962 /* Debug */,
+				C342E71B288ADF9A00AB8962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C342E71C288ADF9A00AB8962 /* Build configuration list for PBXNativeTarget "ChemicCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C342E71D288ADF9A00AB8962 /* Debug */,
+				C342E71E288ADF9A00AB8962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C342E71F288ADF9A00AB8962 /* Build configuration list for PBXNativeTarget "ChemicCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C342E720288ADF9A00AB8962 /* Debug */,
+				C342E721288ADF9A00AB8962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C342E722288ADF9A00AB8962 /* Build configuration list for PBXNativeTarget "ChemicCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C342E723288ADF9A00AB8962 /* Debug */,
+				C342E724288ADF9A00AB8962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C342E6EF288ADF9700AB8962 /* Project object */;
+}
