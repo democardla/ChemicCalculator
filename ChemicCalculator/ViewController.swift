@@ -9,9 +9,16 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    var target: String = ""
+    func getTarget() -> String {
+        return "hh"
+    }
+    @IBAction func ButtonAction(_ sender: NSButtonCell) {
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
 
